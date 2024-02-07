@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; 
+}
+
+h1 {
+    text-align: center;
+    color: #e72b2b; /* Couleur de titre */
+    margin-top: 20px; /* Marge supérieure */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre textuelle subtile */
+    
+}
+
+a {
+    text-decoration: none;
+    color: #1d6eca;
+   
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: #d7c6c6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+article {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #c7d1dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+.film {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.imgavatar{
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.button_s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #618a97d4;
+    height: 4rem;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #aebbc6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#movie-title {
+    color: #f7f5f5;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Ombre textuelle subtile */
+    font-size: 28px; /* Taille de police légèrement plus grande */
+    font-weight: bold; /* Police en gras pour mettre en évidence */
+}
+
+#movie-summary {
+    text-align: center;
+    color: rgb(247, 248, 249);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Ombre textuelle subtile */
+    font-size: 20px; /* Taille de police légèrement plus grande */
+    line-height: 1.5; /* Espacement des lignes pour une meilleure lisibilité */
+}
+
+
+.author-details img {
+    width: 60px; /* Réduire la taille de l'avatar */
+    height: 60px; /* Réduire la taille de l'avatar */
+    border-radius: 15%;
+    margin-right: 10px;
+    border: 2px solid #fff; /* Bordure blanche */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.comment-content {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+.comment-date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-left: auto;
+}
+
+.comment-username {
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+    .search-bar button {
+        padding: 8px 16px;
+    }
+}
+
+/* Media query pour les écrans de grande taille */
+@media (min-width: 1200px) {
+    .search-bar button {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
